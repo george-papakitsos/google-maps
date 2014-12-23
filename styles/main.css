@@ -1,0 +1,73 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+	font-family: Arial;
+	font-size: 14px;
+	color: #555555;
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+input {
+	font-size: 14px;
+	background-color: #ffffff;
+	color: #555555;
+	border: 1px solid #999999;
+	padding: 0px 5px;
+	height: 25px;
+}
+input[type=button] {
+	background-color: #f0f0f0;
+}
+input[type=number] {
+	width: 100px;
+}
+input[type=text] {
+	width: 204px;
+}
+.panel {
+	height: 200px;
+	border: 7px solid #a9c9fd;
+}
+.columnsHolder {
+	display: table;
+	padding: 10px;
+	width: 100%;
+}
+.columns {
+	display: table-cell;
+	vertical-align: top;
+	width: 50%;
+	padding: 5px;
+}
+.title {
+	font-size: 18px;
+	border-bottom: 2px solid #a9c9fd;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+}
+.section {
+	border-bottom: 1px solid #a9c9fd;
+	padding-bottom: 7px;
+	margin-bottom: 7px;
+}
+#markers {
+	height: 120px;
+	overflow: auto;
+}
+#markers a {
+	color: #a9c9fd;
+	text-decoration: none;
+}
+#map-canvas {
+	width: 100%;
+	height: -moz-calc(100% - 200px);
+	height: -webkit-calc(100% - 200px);
+	height: calc(100% - 200px);
+}

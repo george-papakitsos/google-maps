@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Content-Language" content="en">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="George Papakitsos - george@papakitsos.gr">
+	<title>Google Maps</title>
+	<link href="styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="panel">
+	<div class="columnsHolder">
+		
+		<div class="columns">
+			<div class="title">Add Marker</div>
+			<div class="section">
+				<input type="number" name="latitude" id="latitude" placeholder="latitude" min="-90" max="90" step="any">
+				<input type="number" name="longitude" id="longitude" placeholder="longitude" min="-180" max="180" step="any">
+				<input type="button" value="ADD" id="buttonAddMarkerLatLng">
+			</div>
+			<div class="section">
+				<input type="text" name="address" id="address" placeholder="address">
+				<input type="button" value="ADD" id="buttonAddMarkerAddress">
+			</div>
+			<div class="section">
+				<input type="button" value="CURRENT LOCATION" id="buttonAddMarkerCurrentLocation">
+			</div>
+		</div>
+		
+		<div class="columns">
+			<div class="title">Markers</div>
+			<div id="markers"></div>
+		</div>
+		
+	</div>
+</div>
+<div id="map-canvas"></div>
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//maps.google.com/maps/api/js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
