@@ -13,9 +13,9 @@ var MapsModule = (function() {
 		markers				= [],
 		objectsMarkers		= [];
 	
-	var init = function() {
-		currentLatitude		= 37.946862;
-		currentLongitude	= 23.713297;
+	var init = function(lat, lng) {
+		currentLatitude		= lat;
+		currentLongitude	= lng;
 		bindEvents();
 		showMap();
 	};
@@ -117,5 +117,5 @@ var MapsModule = (function() {
 })();
 
 $(window).load(function() {
-	MapsModule.init();
+	MapsModule.init(37.946862, 23.713297);
 });
