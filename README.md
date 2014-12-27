@@ -6,3 +6,5 @@ This simple JS Module creates markers in google map using latitude and longitude
 The Module requires:
 - Google Maps JS API v.3
 - jQuery
+
+Demo: http://papakitsos.gr/google-maps/
