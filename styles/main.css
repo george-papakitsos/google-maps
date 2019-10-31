@@ -26,10 +26,10 @@ input[type=button] {
 	background-color: #f0f0f0;
 }
 input[type=number] {
-	width: 100px;
+	width: 120px;
 }
 input[type=text] {
-	width: 204px;
+	width: 244px;
 }
 .panel {
 	height: 200px;
